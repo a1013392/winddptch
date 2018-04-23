@@ -1,0 +1,17 @@
+# Power dispatched to the electricity grid from a wind farm with battery energy storage.
+# Reference signal, or set point, follows daily load profile of the season.
+# Per-unit base quantities are 100 MW for power and 100 MWh for energy.
+# BATTCAP:	Battery capacity, per unit (p.u.) 
+# SOCMIN:	Minimum battery state of charge (SOC), (p.u.)
+# SOCMAX:	Maximum battery SOC, (p.u.)
+# CHRGRT:	Maximum battery charge rate, (p.u.)
+# DCHRGRT:	Maximum battery discharge rate, (p.u.)
+# WINDCAP:	Wind farm registered capacity, (p.u.)
+# PDREF:	Reference signal, or set point, for power dispatched to the grid, (p.u.)
+# DISPINT:	Number of dispatch intervals in computer simulation
+# PWCNT:	Number of dispatch intervals in which wind power generated exceeds set point
+# PWPROB:	Probability that wind power generated exceeds set point, %
+# PDCNT:	Number of dispatch intervals in which power dispatched to the grid exceeds set point
+# PDPROB:	Probability that power dispatched to the grid exceeds set point, %
+#
+# BATTCAP	SOCMIN	SOCMAX	CHRGRT	DCHRGRT	WINDCAP	PDREF	DISPINT	PWCNT	PWPROB	PDCNT	PDPROB
